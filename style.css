@@ -1,0 +1,25 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-image: linear-gradient(#101010, #000000);
+	color: white;
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+#image {
+	max-width: 65vw;
+	min-width: 30vw;
+	max-height: 90vh;
+}
+
+#desc {
+	max-width: 60vw;
+	font-family: sans-serif;
+	margin-top: 1rem;
+	font-size: 20px;
+};
